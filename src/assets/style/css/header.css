@@ -1,0 +1,89 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+form {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1', '\5b8b\4f53', tahoma, arial;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #08c;
+}
+.head {
+  background-color: #2C2F33;
+  height: 52px;
+  overflow: hidden;
+}
+.head .head-main {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.head .head-main .head-menu {
+  width: 100%;
+  float: right;
+}
+.head .head-main .head-menu .logo {
+  display: block;
+  text-align: right;
+  width: 125px;
+  height: 20px;
+  margin-top: 16px;
+  float: left;
+}
+.head .head-main .head-menu i {
+  float: left;
+  color: white;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 52px;
+  margin: 0 10px;
+  opacity: 0.8;
+}
+.head .head-main .head-menu .wen {
+  font-size: 14px;
+  line-height: 54px;
+}
